@@ -1,0 +1,81 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url('https://4.bp.blogspot.com/-BLcvaFKE7Xw/V5fPO7wc0cI/AAAAAAAAEbc/YG54RtXt1KwK_zw2b28jjO1OoEzIPOniQCLcB/s1600/Kriti-Sanon-New-Style.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5); /* set the background color with an alpha value */
+}
+
+.login-form-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0,0,0.9);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+@media only screen and (max-width: 768px) {
+  .login-form-container {
+    width: 100%;
+    padding: 20px;
+  }
+}
